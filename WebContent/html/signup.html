@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>반응형회원가입 폼</title>
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/signupstyle.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="container">
+		<div class="title">회원가입</div>
+		<form action = "#">
+			<div class = "user-details">
+				<div class = "input-box">
+					<span class="details">Full name</span>
+					<input type="text" placeholder="이름을 입력하세요"required>
+				</div>
+				<div class = "input-box">
+					<span class="details">Email</span>
+					<input type="text" placeholder="email을 입력하세요"required>
+				</div>
+				<div class = "input-box">
+					<span class="details">ID</span>
+					<input type="text" placeholder="아이디를 입력하세요"required>
+				</div>
+				<div class = "input-box">
+					<span class="details">Phone Number</span>
+					<input type="text" placeholder="연락처 입력하세요"required>
+				</div>
+				<div class = "input-box">
+					<span class="details">Password</span>
+					<input type="text" placeholder="비밀번호를 입력하세요"required>
+				</div>
+				<div class = "input-box">
+					<span class="details">Confirm Password</span>
+					<input type="text" placeholder="비밀번호를 확인하세요"required>
+				</div>
+				<div class = "input-box">
+					<span class="details">Post</span>
+					<input type="text" name="post" id="sample4_postcode" placeholder="우편번호">
+					<input type="button" onclick="sample4_execDaumPostcode()" value="우편번호 찾기"><br>
+					</div>
+					
+					
+				
+				<div class = "input-box">
+					<span class="details">Address</span>
+					<input type="text" name="addr1" id="sample4_roadAddress" placeholder="도로명주소">
+						<input type="text" name="addr2" id="sample4_jibunAddress" placeholder="지번주소">
+						
+				</div>
+				
+			</div>
+			<div class ="button">
+				<input type="submit" value="회원가입">
+			</div>
+			</form>
+	</div>
+</body>
+</html>
